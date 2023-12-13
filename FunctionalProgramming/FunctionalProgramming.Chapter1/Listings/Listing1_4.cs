@@ -1,6 +1,5 @@
 ﻿using FunctionalProgramming.Helpers.Printing;
 using static System.Linq.Enumerable;
-using static System.Console;
 
 namespace FunctionalProgramming.Chapter1.Listings;
 

@@ -7,3 +7,5 @@ Listing1_2.Execute();
 Listing1_3.Execute();
 Listing1_4.Execute();
 Listing1_5.Execute();
+Listing1_6.Execute();
+Listing1_7.Execute();
