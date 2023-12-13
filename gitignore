@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,visualstudio,jetbrains+all,csharp
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,visualstudiocode,visualstudio,jetbrains+all,csharp
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,jetbrains+all,csharp,windows,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,jetbrains+all,csharp,windows,macos
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -734,4 +734,4 @@ $RECYCLE.BIN/
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,visualstudio,jetbrains+all,csharp
+# End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,jetbrains+all,csharp,windows,macos
