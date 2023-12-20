@@ -6,11 +6,11 @@ namespace FunctionalProgramming.Chapter1.Listings;
 /// <summary>
 ///     Mutating state from concurrent processes
 /// </summary>
-public class Listing1_4
+public static class Listing4
 {
     public static void Execute()
     {
-        Console.WriteLine($"Executing {nameof(Listing1_4)}");
+        Console.WriteLine($"Executing {nameof(Listing4)}");
 
         var nums = Range(-10000, 20001).Reverse().ToArray();
 
@@ -25,6 +25,6 @@ public class Listing1_4
         Parallel.Invoke(task1, task2);
         Parallel.Invoke(task1, task3);
 
-        Console.WriteLine($"Finished {nameof(Listing1_4)}\n");
+        Console.WriteLine($"Finished {nameof(Listing4)}\n");
     }
 }

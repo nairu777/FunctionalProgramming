@@ -6,17 +6,17 @@ namespace FunctionalProgramming.Chapter1.Listings;
 /// <summary>
 ///     C# idioms relevant to FP
 /// </summary>
-public class Listing1_5
+public static class Listing5
 {
     public static void Execute()
     {
-        Console.WriteLine($"Executing {nameof(Listing1_5)}");
+        Console.WriteLine($"Executing {nameof(Listing5)}");
 
         var circle = new Circle(3);
 
         circle.Print(nameof(circle));
 
-        Console.WriteLine($"Finished {nameof(Listing1_5)}\n");
+        Console.WriteLine($"Finished {nameof(Listing5)}\n");
     }
 
     private record Circle(double Radius)

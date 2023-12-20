@@ -2,10 +2,12 @@
 
 using FunctionalProgramming.Chapter1.Listings;
 
-Listing1_1.Execute();
-Listing1_2.Execute();
-Listing1_3.Execute();
-Listing1_4.Execute();
-Listing1_5.Execute();
-Listing1_6.Execute();
-Listing1_7.Execute();
+Listing1.Execute();
+Listing2.Execute();
+Listing3.Execute();
+Listing4.Execute();
+Listing5.Execute();
+Listing6To9.ExecuteListing6();
+Listing6To9.ExecuteListing7();
+Listing6To9.ExecuteListing8();
+Listing6To9.ExecuteLisitng9();
