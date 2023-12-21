@@ -9,13 +9,13 @@ public static class Listing3
 {
     public static void Execute()
     {
-        Console.WriteLine($"Executing {nameof(Listing3)}");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.{nameof(Listing3)}");
 
         int[] original = { 5, 7, 1 };
         Array.Sort(original);
 
         original.Print(nameof(original));
 
-        Console.WriteLine($"Finished {nameof(Listing3)}\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.{nameof(Listing3)}\n");
     }
 }

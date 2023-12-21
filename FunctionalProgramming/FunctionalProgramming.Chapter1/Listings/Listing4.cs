@@ -10,7 +10,7 @@ public static class Listing4
 {
     public static void Execute()
     {
-        Console.WriteLine($"Executing {nameof(Listing4)}");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.{nameof(Listing4)}");
 
         var nums = Range(-10000, 20001).Reverse().ToArray();
 
@@ -25,6 +25,6 @@ public static class Listing4
         Parallel.Invoke(task1, task2);
         Parallel.Invoke(task1, task3);
 
-        Console.WriteLine($"Finished {nameof(Listing4)}\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.{nameof(Listing4)}\n");
     }
 }

@@ -9,7 +9,7 @@ public static class Listing1
 {
     public static void Execute()
     {
-        Console.WriteLine($"Executing {nameof(Listing1)}");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.{nameof(Listing1)}");
 
         var triple = (int x) => x * 3;
         var range = Enumerable.Range(1, 3);
@@ -17,6 +17,6 @@ public static class Listing1
 
         triples.Print(nameof(triples));
 
-        Console.WriteLine($"Finished {nameof(Listing1)}\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.{nameof(Listing1)}\n");
     }
 }

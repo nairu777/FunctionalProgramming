@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FunctionalProgramming.Helpers\FunctionalProgramming.Helpers.csproj"/>
+      <ProjectReference Include="..\FunctionalProgramming.Helpers\FunctionalProgramming.Helpers.csproj" />
     </ItemGroup>
 
 </Project>

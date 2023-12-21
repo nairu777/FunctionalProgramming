@@ -12,13 +12,13 @@ public class Listing6To9
     /// </summary>
     public static void ExecuteListing6()
     {
-        Console.WriteLine($"Executing Listing6");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.Listing6");
 
         var testProduct = new Product("Bananas", 2, true);
         var testOrder = new Order(testProduct, 6);
         testOrder.Print(nameof(testOrder));
 
-        Console.WriteLine($"Finished Listing6\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.Listing6\n");
     }
 
     /// <summary>
@@ -26,7 +26,7 @@ public class Listing6To9
     /// </summary>
     public static void ExecuteListing7()
     {
-        Console.WriteLine("Executing Listing7");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.Listing7");
 
         var testProduct = new Product("Bananas", 2, true);
         var testOrder = new Order(testProduct, 6);
@@ -35,7 +35,7 @@ public class Listing6To9
         var vat = Vat(testAddress, testOrder);
         vat.Print(nameof(vat));
 
-        Console.WriteLine("Finished Listing7\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.Listing7\n");
     }
 
     /// <summary>
@@ -43,16 +43,14 @@ public class Listing6To9
     /// </summary>
     public static void ExecuteListing8()
     {
-        Console.WriteLine("Executing Listing8");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.Listing8");
 
-        var vat = Vat(
-            new Address("de"),
-            new Order(
-                new Product("Bananas", 2, true),
-                6));
+        var testAddress = new Address("de");
+        var testOrder = new Order(new Product("Bananas", 2, true),6);
+        var vat = Vat(testAddress, testOrder);
         vat.Print(nameof(vat));
 
-        Console.WriteLine("Finished Listing8\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.Listing8\n");
     }
 
     /// <summary>
@@ -60,16 +58,14 @@ public class Listing6To9
     /// </summary>
     public static void ExecuteLisitng9()
     {
-        Console.WriteLine("Executing Listing9");
+        Console.WriteLine($"Executing {nameof(Chapter1)}.Listing9");
 
-        var vat = Vat(
-            new UsAddress("ny"),
-            new Order(
-                new Product("Bananas", 2, true),
-                6));
+        var testAddress = new UsAddress("ny");
+        var testOrder = new Order(new Product("Bananas", 2, true),6);
+        var vat = Vat(testAddress, testOrder);
         vat.Print(nameof(vat));
 
-        Console.WriteLine("Finished Listing9\n");
+        Console.WriteLine($"Finished {nameof(Chapter1)}.Listing9\n");
     }
 
     private static decimal Vat(Address address, Order order) =>

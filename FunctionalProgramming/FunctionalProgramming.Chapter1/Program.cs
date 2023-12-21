@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using FunctionalProgramming.Chapter1.Listings;
+﻿using FunctionalProgramming.Chapter1.Listings;
 
 Listing1.Execute();
 Listing2.Execute();
