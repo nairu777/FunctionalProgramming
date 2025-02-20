@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming.Helpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming.Chapter2", "FunctionalProgramming.Chapter2\FunctionalProgramming.Chapter2.csproj", "{136D858F-ECD7-4429-AD8B-90EE842F7758}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming.Chapter1.Tests", "FunctionalProgramming.Chapter1.Tests\FunctionalProgramming.Chapter1.Tests.csproj", "{2041DB85-0457-4CFD-849C-D72A2D16D0EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{136D858F-ECD7-4429-AD8B-90EE842F7758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136D858F-ECD7-4429-AD8B-90EE842F7758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136D858F-ECD7-4429-AD8B-90EE842F7758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2041DB85-0457-4CFD-849C-D72A2D16D0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2041DB85-0457-4CFD-849C-D72A2D16D0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2041DB85-0457-4CFD-849C-D72A2D16D0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2041DB85-0457-4CFD-849C-D72A2D16D0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
