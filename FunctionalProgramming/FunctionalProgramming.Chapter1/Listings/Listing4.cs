@@ -1,5 +1,4 @@
-﻿using FunctionalProgramming.Helpers.Printing;
-using static System.Linq.Enumerable;
+﻿using static System.Linq.Enumerable;
 
 namespace FunctionalProgramming.Chapter1.Listings;
 
@@ -8,23 +7,21 @@ namespace FunctionalProgramming.Chapter1.Listings;
 /// </summary>
 public static class Listing4
 {
-    public static void Execute()
+    public static void ExecuteTask1And2(int[] nums)
     {
-        Console.WriteLine($"Executing {nameof(Chapter1)}.{nameof(Listing4)}");
-
-        var nums = Range(-10000, 20001).Reverse().ToArray();
-
-        var task1 = () => nums.Sum().Print("task1");
-        var task2 = () =>
-        {
-            Array.Sort(nums);
-            nums.Sum().Print("task2");
-        };
-        var task3 = () => nums.OrderBy(x => x).Sum().Print("task3");
-
-        Parallel.Invoke(task1, task2);
-        Parallel.Invoke(task1, task3);
-
-        Console.WriteLine($"Finished {nameof(Chapter1)}.{nameof(Listing4)}\n");
+        Parallel.Invoke(() => Task1(nums), () => Task2(nums));
     }
+
+    public static void ExecuteTask1And3(int[] nums)
+    {
+        Parallel.Invoke(() => Task1(nums), () => Task3(nums));
+    }
+
+    private static Action<int[]> Task1 => nums => Console.WriteLine(nums.Sum());
+    private static Action<int[]> Task2 => nums =>
+    {
+        Array.Sort(nums);
+        Console.WriteLine(nums.Sum());
+    };
+    private static Action<int[]> Task3 => nums => Console.WriteLine(nums.OrderBy(x => x).Sum());
 }

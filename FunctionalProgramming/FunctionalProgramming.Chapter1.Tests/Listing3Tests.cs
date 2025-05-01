@@ -3,14 +3,17 @@ using FunctionalProgramming.Chapter1.Listings;
 
 namespace FunctionalProgramming.Chapter1.Tests;
 
+/// <summary>
+///     Non-functional approach: List<T>. Sort sorts the list in place
+/// </summary>
 public class Listing3Tests
 {
     [Fact]
-    public static void Sort_WhenAppliedOnArray_SortOrriginalArray()
+    public void Sort_WhenAppliedOnArray_SortOriginalArray()
     {
         // Arrange
-        var original = new int[] { 5, 7, 1 };
-        var expectedResult = new int[] { 1, 5, 7 };
+        var original = new[] { 5, 7, 1 };
+        var expectedResult = new[] { 1, 5, 7 };
         
         // Act
         original.Sort();

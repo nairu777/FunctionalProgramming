@@ -3,6 +3,9 @@ using FunctionalProgramming.Chapter1.Listings;
 
 namespace FunctionalProgramming.Chapter1.Tests;
 
+/// <summary>
+///     A simple example of using a function as a first-class value
+/// </summary>
 public class Listing1Tests
 {
     [Theory]
